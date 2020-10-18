@@ -1,0 +1,26 @@
+@import "./partials"; 
+@import "./variables"
+
+var primaryColor: rgb(90, 209, 61);
+
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+.container {
+  height: 500px;
+  width: 350px;
+  background-color: #090908
+  position: absolute;
+  margin: auto;
+}
+
+header button {
+  background: red;
+}
+
+.contact button {
+  background: $primarycolor;
+}

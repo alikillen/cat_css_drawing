@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+.container {
+  height: 500px;
+  width: 350px;
+  background-color: #09d0df;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+
+.cat {
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+.face {
+  background-color: #33292b;
+  height: 100px;
+  width: 150px;
+  border-radius: 30px;
+}
+
+.ear-l .ear-r {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #333292b;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position: relative;
+
+}
+
+.ear-l {
+  bottom: 40px;
+  transform: rotate(-30deg);
+}
+
+.ear-r {
+  bottom: 90px;
+  left: 110px;
+  transform: rotate(30deg);
+
+}
